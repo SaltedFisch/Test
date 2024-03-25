@@ -1,0 +1,624 @@
+:root {
+  --dl-color-red-100: rgba(248, 215, 218, 1);
+  --dl-color-red-200: rgba(243, 188, 193, 1);
+  --dl-color-red-300: rgba(232, 120, 131, 1);
+  --dl-color-red-400: rgba(226, 87, 100, 1);
+  --dl-color-red-600: rgba(147, 35, 46, 1);
+  --dl-color-red-700: rgba(110, 27, 35, 1);
+  --dl-color-red-800: rgba(73, 18, 23, 1);
+  --dl-color-red-900: rgba(44, 11, 14, 1);
+  --dl-color-blue-100: rgba(207, 224, 238, 1);
+  --dl-color-blue-200: rgba(135, 176, 213, 1);
+  --dl-color-blue-300: rgba(95, 150, 200, 1);
+  --dl-color-blue-400: rgba(55, 124, 185, 1);
+  --dl-color-blue-600: rgba(13, 82, 143, 1);
+  --dl-color-blue-700: rgba(10, 65, 115, 1);
+  --dl-color-blue-800: rgba(5, 32, 57, 1);
+  --dl-color-blue-900: rgba(3, 20, 34, 1);
+  --dl-color-cyan-100: rgba(207, 244, 252, 1);
+  --dl-color-cyan-200: rgba(174, 237, 250, 1);
+  --dl-color-cyan-300: rgba(134, 228, 247, 1);
+  --dl-color-cyan-400: rgba(93, 219, 245, 1);
+  --dl-color-cyan-600: rgba(10, 168, 200, 1);
+  --dl-color-cyan-700: rgba(9, 135, 160, 1);
+  --dl-color-cyan-800: rgba(4, 67, 80, 1);
+  --dl-color-cyan-900: rgba(3, 40, 48, 1);
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-color-grey-100: rgba(248, 249, 250, 1);
+  --dl-color-grey-200: rgba(233, 236, 239, 1);
+  --dl-color-grey-300: rgba(222, 226, 230, 1);
+  --dl-color-grey-400: rgba(206, 212, 218, 1);
+  --dl-color-grey-500: rgba(173, 181, 189, 1);
+  --dl-color-grey-600: rgba(108, 117, 125, 1);
+  --dl-color-grey-700: rgba(73, 80, 87, 1);
+  --dl-color-grey-800: rgba(52, 58, 64, 1);
+  --dl-color-grey-900: rgba(33, 37, 41, 1);
+  --dl-color-green-100: rgba(178, 215, 198, 1);
+  --dl-color-green-200: rgba(140, 195, 169, 1);
+  --dl-color-green-300: rgba(101, 175, 141, 1);
+  --dl-color-green-400: rgba(63, 155, 113, 1);
+  --dl-color-green-600: rgba(20, 112, 70, 1);
+  --dl-color-green-700: rgba(17, 90, 56, 1);
+  --dl-color-green-800: rgba(13, 68, 42, 1);
+  --dl-color-green-900: rgba(5, 27, 17, 1);
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-color-grey-black: rgba(0, 0, 0, 1);
+  --dl-color-grey-white: rgba(255, 255, 255, 1);
+  --dl-color-orange-100: rgba(253, 231, 214, 1);
+  --dl-color-orange-200: rgba(252, 215, 187, 1);
+  --dl-color-orange-300: rgba(248, 174, 120, 1);
+  --dl-color-orange-400: rgba(246, 154, 85, 1);
+  --dl-color-orange-600: rgba(204, 112, 43, 1);
+  --dl-color-orange-700: rgba(163, 89, 34, 1);
+  --dl-color-orange-800: rgba(82, 45, 17, 1);
+  --dl-color-orange-900: rgba(49, 27, 10, 1);
+  --dl-color-theme-dark: rgba(33, 37, 41, 1);
+  --dl-color-theme-info: rgba(13, 202, 240, 1);
+  --dl-color-yellow-100: rgba(255, 243, 205, 1);
+  --dl-color-yellow-200: rgba(255, 224, 131, 1);
+  --dl-color-yellow-300: rgba(255, 213, 89, 1);
+  --dl-color-yellow-400: rgba(255, 203, 48, 1);
+  --dl-color-yellow-600: rgba(212, 161, 6, 1);
+  --dl-color-yellow-700: rgba(170, 129, 5, 1);
+  --dl-color-yellow-800: rgba(128, 97, 4, 1);
+  --dl-color-yellow-900: rgba(51, 39, 1, 1);
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-red-500base: rgba(220, 53, 69, 1);
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-color-theme-light: rgba(248, 249, 250, 1);
+  --dl-size-size-xxlarge: 288px;
+  --dl-color-blue-500base: rgba(15, 98, 172, 1);
+  --dl-color-cyan-500base: rgba(13, 202, 240, 1);
+  --dl-color-theme-danger: rgba(220, 53, 69, 1);
+  --dl-size-size-maxwidth: 1400px;
+  --dl-color-green-500base: rgba(25, 135, 84, 1);
+  --dl-color-theme-primary: rgba(15, 98, 172, 1);
+  --dl-color-theme-success: rgba(25, 135, 84, 1);
+  --dl-color-theme-warning: rgba(255, 193, 7, 1);
+  --dl-radius-radius-round: 50%;
+  --dl-color-orange-500base: rgba(245, 134, 52, 1);
+  --dl-color-yellow-500base: rgba(255, 193, 7, 1);
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-color-theme-secondary: rgba(245, 134, 52, 1);
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-bodytext-bodycolor: rgba(33, 37, 41, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.BodyRegular {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.BodyBold {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.BodyLight {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.BodyItalic {
+  font-size: 16px;
+  font-style: italic;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.BodyUnderline {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.BodyStrike {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.BodySmall {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.BodyBlockquote {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.BodyStrong {
+  font-size: 17px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH1Light {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH1Regular {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH1SemiBold {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH1Bold {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH1ExtraBold {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH2Light {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH2Regular {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH2SemiBold {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH2Bold {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH2ExtraBold {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH3Light {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH3Regular {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH3SemiBold {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH3Bold {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH3ExtraBold {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH4Light {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH4Regular {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH4SemiBold {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH4Bold {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH4ExtraBold {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH5Light {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH5Regular {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH5SemiBold {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH5Bold {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH5ExtraBold {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH6Light {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH6Regular {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH6SemiBold {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH6Bold {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.HeadingH6ExtraBold {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 800px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.DisplayH1 {
+  font-size: 80px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.DisplayH2 {
+  font-size: 72px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.DisplayH3 {
+  font-size: 64px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.DisplayH4 {
+  font-size: 56px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.DisplayH5 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.DisplayH6 {
+  font-size: 40px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.LeadText-Regular {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 300px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsBadgeH1 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsBadgeH2 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsBadgeH3 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsBadgeH4 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsBadgeH5 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsBadgeH6 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsDropdownItemHeader {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsDropdownDropdownHeader {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsProgressLabel {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsToastHeaderTitle {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.ComponentsToastHeaderTime {
+  font-size: 12.25px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
